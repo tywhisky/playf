@@ -10,11 +10,7 @@ scalaVersion := "2.13.11"
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
 
-libraryDependencies ++= Seq(
-  "com.pauldijou" %% "jwt-play" % "0.19.0",
-  "com.pauldijou" %% "jwt-core" % "0.19.0",
-  "com.auth0" % "jwks-rsa" % "0.6.1"
-)
+libraryDependencies ++= Seq()
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.example.controllers._"
